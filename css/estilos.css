@@ -1,0 +1,360 @@
+body{
+	margin:0;
+	padding: 0;	
+	background-color: #282828;
+	text-align: center;
+	background-image:url(../img/cocinaback.png);
+	background-position: 50%;
+	width: 100%;
+	background-repeat:repeat;
+
+	
+	/*background: url(../img/cocinaback.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+
+	-moz-background-size: cover;
+
+	-o-background-size: cover;
+	background-size: cover;
+*/
+}
+#navegador{
+	width: 100%;
+	height: 120px;
+	background: #232323;
+	display:flex;						}
+
+
+#logo{
+	padding-top: 15px;
+	width: 30%;
+	display: inline-block;
+    padding-left: 15%;
+
+
+}
+#botonera{
+
+	display: inline;
+	overflow: auto;
+	float: right;
+	text-align: center;
+	padding-top:40px;
+}
+nav ul {
+float: right;
+}
+nav ul li{
+margin-left: 12px;
+display:inline;
+ background: #ffffff;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 40px;
+ position: relative;
+ box-sizing: border-box;
+ font-family: 'Times New Roman', Times, serif;
+ text-decoration: none;
+
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+nav ul li a:hover{
+
+color:rgb(228, 124, 68);
+text-decoration: none;
+
+} 
+/* fin de la barra de navegacion.*/
+
+h1{
+	color: white;
+text-shadow:rgb(0, 0, 0) 2px 2px; 
+font-size: 4em;
+font-family: 'Josefin Slab', serif;
+}
+
+#contenedor{
+background-image:url(../img/cocinaback.png);
+background-repeat: no-repeat;
+background-position: 50% -20%;
+width: 100%;
+
+}
+.slider-frame {
+	width: 76%;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 84%;
+	border-radius: 20px;
+    box-shadow: inset 0 0 50px black;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+footer{
+	
+	width: 100%;
+	height: 80px;
+	background: #232323;
+	display:flex;	
+
+
+}
+#contenedorfoto{
+
+width: 100%;
+height:600px;
+background-image:url(../img/platos.jpg);
+border-radius: 20px;
+background-position: center;
+background-repeat: no-repeat;
+margin:0 auto;
+
+}
+#contenedorfoto H2{
+	width: 65%;
+	padding-left:18% ;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+	font-style: bold;
+	font-family: 'Josefin Slab', bold;
+	text-shadow:rgb(0, 0, 0) 3px 3px;
+	padding-top:10%;
+
+
+
+
+
+}
+h2{
+width: 100%;
+color: white;
+font-size: 35px;
+text-align: center;
+font-style: oblique;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-shadow:rgb(0, 0, 0) 3px 3px;
+
+}
+footer ul{
+width: 100%;
+
+
+}
+footer ul li{
+width: 8%;
+display: block;
+float: left;
+margin-left: 10%;
+}
+.entrada{
+width: 20%;
+height: 400px;
+justify-content: center;
+float: left;
+padding-left: 4%;
+
+}
+.entrada img{
+width: 100%;
+height: 300px;
+border-style: ridge;
+
+}
+.entrada h3{
+color:white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+width: 100%;
+
+}
+
+.ensalada{
+	width: 20%;
+	height: 400px;
+	justify-content: center;
+	float: left;
+	padding-left: 4%;
+}
+.ensalada img{
+	width: 100%;
+	height: 300px;
+	border-style: ridge;
+
+}
+.ensalada h3{
+	color:white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	width: 100%;
+	
+	}
+
+	.platos{
+		width: 20%;
+		height: 400px;
+		justify-content: center;
+		float: left;
+		padding-left: 4%;
+	}
+	.platos img{
+		width: 100%;
+		height: 300px;
+		border-style: ridge;
+	}
+
+	.platos h3{
+		color:white;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		width: 100%;
+		
+		}
+		.postre{
+			width: 20%;
+			height: 400px;
+			justify-content: center;
+			float: left;
+			padding-left: 4%;
+			display: grid;
+
+
+		}
+		.postre img{
+			width: 100%;
+			height: 300px;
+			border-style: ridge;
+			
+		
+	}
+	.postre h3{
+
+		color:white;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		width: 100%;
+
+
+
+	}
+
+	
+	
+		@media  screen and (max-width: 850px) {
+			.postre {
+			float: left !important;
+			width: 45%;
+			padding-left: 5%;
+			}
+			#navegador{
+				width: 100%;
+				height: 240px !important;
+				display:block;
+				background: #232323;
+			}
+			nav ul{
+
+				float: none;
+			}
+			#logo{
+				width:100%;
+				height: 120px;
+				padding-left: 0% !important;
+				text-align: center !important;
+
+
+			}
+			#botonera {
+				width: 100% !important;
+				height:120px !important ;
+				display: inline !important;
+				overflow: auto;
+				float: none !important;
+				text-align: center;
+				padding-top:5%;
+				background-color: red !important;
+			}
+			
+			
+	}
+		@media  screen and (max-width: 600px) {
+		.postre {
+		float: none !important;
+		width: 100%;
+		padding-left: 4%;
+		}
+	}
+
+	@media  screen and (max-width: 1050px) {
+		#logo{
+			
+			padding-left: 0%;
+		}
+	}
+	
+/* NOSOTROS.*/
+
+	p{
+text-align: center;
+font-family: 'Josefin Slab', bold;
+width: 80%;
+font-size: 2em;
+color: white;
+padding-left: 10%;
+font-weight: bold;
+
+
+	}video{
+width: 600px;
+height: 600px;
+
+
+	}
+	/* formulario.*/
+	h3{
+font-size: 2em;
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+	}
+
+	form{
+width: 500px;
+height: 500px;
+text-align: center;
+margin: 0 auto;
+color:white;
+font-size: 2em;
+	}
